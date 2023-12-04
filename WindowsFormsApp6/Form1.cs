@@ -35,13 +35,13 @@ namespace WindowsFormsApp6
             pictureBox7.Image = null;
             
 
-            pictureBox5.Image = Image.FromFile("C:\\Users\\Egor\\Downloads\\1(2).jpg");
+            pictureBox5.Image = Image.FromFile("1(2).jpg");
 
             if (rand_num == 1)
             {
                 label3.ForeColor = Color.Red;
                 label3.Text = "LOSE!";
-                pictureBox4.Image = Image.FromFile("C:\\Users\\Egor\\Downloads\\Новый проект(9).jpg");
+                pictureBox4.Image = Image.FromFile("rock.jpg");
             }
 
             if (rand_num == 2)
@@ -50,14 +50,14 @@ namespace WindowsFormsApp6
                 label3.Text = "WIN!";
                 win_rate++;
                 textBox1.Text = Convert.ToString(win_rate);
-                pictureBox4.Image = Image.FromFile("C:\\Users\\Egor\\Downloads\\Новый проект(10).jpg");
+                pictureBox4.Image = Image.FromFile("paper.jpg");
             }
 
             if (rand_num == 3)
             {
                 label3.ForeColor = Color.Black;
                 label3.Text = "DRAW!";
-                pictureBox4.Image = Image.FromFile("C:\\Users\\Egor\\Downloads\\Новый проект(8).jpg");
+                pictureBox4.Image = Image.FromFile("scissors.jpg");
             }
             
         }
@@ -83,20 +83,20 @@ namespace WindowsFormsApp6
             pictureBox7.Image = null;
             
 
-            pictureBox6.Image = Image.FromFile("C:\\Users\\Egor\\Downloads\\1(2).jpg");
+            pictureBox6.Image = Image.FromFile("1(2).jpg");
 
             if (rand_num == 1)
             {
                 label3.ForeColor = Color.Black;
                 label3.Text = "DRAW!";
-                pictureBox4.Image = Image.FromFile("C:\\Users\\Egor\\Downloads\\Новый проект(9).jpg");
+                pictureBox4.Image = Image.FromFile("rock.jpg");
             }
 
             if (rand_num == 2)
             {
                 label3.ForeColor = Color.Red;
                 label3.Text = "LOSE!";
-                pictureBox4.Image = Image.FromFile("C:\\Users\\Egor\\Downloads\\Новый проект(10).jpg");
+                pictureBox4.Image = Image.FromFile("paper.jpg");
             }
 
             if (rand_num == 3)
@@ -105,7 +105,7 @@ namespace WindowsFormsApp6
                 label3.Text = "WIN!";
                 win_rate++;
                 textBox1.Text = Convert.ToString(win_rate);
-                pictureBox4.Image = Image.FromFile("C:\\Users\\Egor\\Downloads\\Новый проект(8).jpg");
+                pictureBox4.Image = Image.FromFile("scissors.jpg");
             }
         }
  
@@ -116,7 +116,7 @@ namespace WindowsFormsApp6
             pictureBox5.Image = null;
             
 
-            pictureBox7.Image = Image.FromFile("C:\\Users\\Egor\\Downloads\\1(2).jpg");
+            pictureBox7.Image = Image.FromFile("1(2).jpg");
 
             if (rand_num == 1)
             {
@@ -124,21 +124,21 @@ namespace WindowsFormsApp6
                 label3.Text = "WIN!";
                 win_rate++;
                 textBox1.Text = Convert.ToString(win_rate);
-                pictureBox4.Image = Image.FromFile("C:\\Users\\Egor\\Downloads\\Новый проект(9).jpg");
+                pictureBox4.Image = Image.FromFile("rock.jpg");
             }
 
             if (rand_num == 2)
             {
                 label3.ForeColor = Color.Black;
                 label3.Text = "DRAW!";
-                pictureBox4.Image = Image.FromFile("C:\\Users\\Egor\\Downloads\\Новый проект(10).jpg");
+                pictureBox4.Image = Image.FromFile("paper.jpg");
             }
 
             if (rand_num == 3)
             {
                 label3.ForeColor = Color.Red;
                 label3.Text = "LOSE!";
-                pictureBox4.Image = Image.FromFile("C:\\Users\\Egor\\Downloads\\Новый проект(8).jpg");
+                pictureBox4.Image = Image.FromFile("scissors.jpg");
             }
         }
 
@@ -147,7 +147,7 @@ namespace WindowsFormsApp6
             win_rate = 0;
             textBox1.Text = Convert.ToString(win_rate);
             label3.Text = "";
-            pictureBox4.Image = Image.FromFile("C:\\Users\\Egor\\Downloads\\1(1).jpg");
+            pictureBox4.Image = Image.FromFile("1(1).jpg");
             pictureBox6.Image = null;
             pictureBox5.Image = null;
             pictureBox7.Image = null;
@@ -157,6 +157,11 @@ namespace WindowsFormsApp6
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
